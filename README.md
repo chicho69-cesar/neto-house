@@ -7,12 +7,12 @@ donde se especifica el dia y la tarea en la que cada quien debera realizar sus t
 
 Para instalar las dependencias del proyecto ejecuta:
 
-  yarn
+    yarn
   
 Para levantar el entorno de desarrollo ejecuta:
 
-  yarn dev
+    yarn dev
   
 Para compilar el proyecto ejecuta:
 
-  yarn build
+    yarn build
