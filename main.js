@@ -8,3 +8,11 @@ document.querySelector('#app').innerHTML = index();
 document.querySelector('#today').addEventListener('click', e => {
     today(e.target);
 });
+
+document.body.onload = function() {
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (userPrefersDark) {
+        document.documentElement.classList.replace('light', 'dark');
+    }
+};
