@@ -1,5 +1,9 @@
-export const index = () => {
+import header from "./components/header";
+
+const index = () => {
     return `
-        <h1 class="text-tahiti-500">Hello World!!!</h1>
+        ${ header() }
     `;
 }
+
+export default index;
