@@ -23,37 +23,37 @@ export const kitchenDates = () => {
         {
             member: 'Brian',
             day: '31/Agosto/2022',
-            limitDay: '01/Septiembre/2022'
+            limitDay: '01/Sept/2022'
         },
         {
             member: 'Oliver',
-            day: '02/Septiembre/2022',
-            limitDay: '03/Septiembre/2022'
+            day: '02/Sept/2022',
+            limitDay: '03/Sept/2022'
         },
         {
             member: 'Jose',
-            day: '05/Septiembre/2022',
-            limitDay: '06/Septiembre/2022'
+            day: '05/Sept/2022',
+            limitDay: '06/Sept/2022'
         },
         {
             member: 'Andres',
-            day: '07/Septiembre/2022',
-            limitDay: '08/Septiembre/2022'
+            day: '07/Sept/2022',
+            limitDay: '08/Sept/2022'
         },
         {
             member: 'Adrian',
-            day: '09/Septiembre/2022',
-            limitDay: '10/Septiembre/2022'
+            day: '09/Sept/2022',
+            limitDay: '10/Sept/2022'
         },
         {
             member: 'Cesar',
-            day: '13/Septiembre/2022',
-            limitDay: '14/Septiembre/2022'
+            day: '13/Sept/2022',
+            limitDay: '14/Sept/2022'
         },
         {
             member: 'Samuel',
-            day: '15/Septiembre/2022',
-            limitDay: '16/Septiembre/2022'
+            day: '15/Sept/2022',
+            limitDay: '16/Sept/2022'
         }
     ];
 }

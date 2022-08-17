@@ -11,23 +11,23 @@ const kitchenTurns = dates => {
                 </h2>
 
                 <div class="w-full flex flex-row flex-nowrap justify-around
-                items-center py-2 gap-8 text-center">
+                items-center py-2 gap-3 md:gap-8 text-center">
                     <section>
-                        <p class="text-xl font-[450] font-sans">
+                        <p class="text-lg md:text-xl font-[450] font-sans">
                             Fecha optima: 😎
                         </p>
 
-                        <p class="font-sans italic text-green-800 text-lg">
+                        <p class="font-sans italic text-green-800 text-base md:text-lg">
                             ${ el.day }
                         </p>
                     </section>
 
                     <section>
-                        <p class="text-xl font-[450] font-sans">
+                        <p class="text-lg md:text-xl font-[450] font-sans">
                             Fecha limite: 😶
                         </p>
 
-                        <p class="font-sans italic text-red-800 text-lg">
+                        <p class="font-sans italic text-red-800 text-base md:text-lg">
                             ${ el.limitDay }
                         </p>
                     </section>
