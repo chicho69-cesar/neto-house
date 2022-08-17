@@ -1,13 +1,13 @@
 import './src/styles/style.css';
 import './src/index.css';
 import index from './src/index';
-import { today } from './src/modules/today';
+import { message } from './src/modules/message';
 import loadoInfo from './src/modules/load-info';
 
 document.querySelector('#app').innerHTML = index();
 
-document.querySelector('#today').addEventListener('click', e => {
-    today(e.target);
+document.querySelector('#message').addEventListener('click', e => {
+    message(e.target);
 });
 
 document.querySelectorAll('article').forEach(article => {

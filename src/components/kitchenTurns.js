@@ -1,7 +1,3 @@
-/**
- * 
- * @param {array} dates 
- */
 const kitchenTurns = dates => {
     return dates.reduce((acc, el) => {
         return acc + `
