@@ -16,7 +16,7 @@ const header = () => {
                     rounded-full shadow-md hover:shadow-none shadow-tahiti-600 font-medium
                     dark:bg-tahiti-600 dark:text-gray-100 transform hover:-translate-y-[1.5px]
                     dark:shadow-zinc-900 hover:dark:shadow-none transition-all"
-                    id="message">
+                    id="open-modal">
                         Que onda
                     </button>
                 </section>

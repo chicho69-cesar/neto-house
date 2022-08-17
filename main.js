@@ -6,8 +6,8 @@ import loadoInfo from './src/modules/load-info';
 
 document.querySelector('#app').innerHTML = index();
 
-document.querySelector('#message').addEventListener('click', e => {
-    message(e.target);
+document.querySelector('#open-modal').addEventListener('click', () => {
+    message();
 });
 
 document.querySelectorAll('article').forEach(article => {

@@ -1,4 +1,4 @@
-import kitchenTurns from "../components/kitchenTurns";
+import turns from "../components/turns";
 import { kitchenDates } from "./dates";
 
 const loadoInfo = element => {
@@ -6,7 +6,7 @@ const loadoInfo = element => {
     const mainContainer = document.querySelector('main');
 
     if (consultType === 1) {
-        mainContainer.innerHTML = kitchenTurns(kitchenDates());
+        mainContainer.innerHTML = turns(kitchenDates());
     } else {
         mainContainer.innerHTML = `
             <section class="col-start-1 col-end-3 w-full text-center py-8">

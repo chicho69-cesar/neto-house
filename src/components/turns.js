@@ -1,4 +1,4 @@
-const kitchenTurns = dates => {
+const turns = dates => {
     return dates.reduce((acc, el) => {
         return acc + `
             <article class="bg-tahiti-200 p-4 rounded-lg 
@@ -37,4 +37,4 @@ const kitchenTurns = dates => {
     }, '');
 }
 
-export default kitchenTurns;
+export default turns;
