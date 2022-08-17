@@ -14,5 +14,7 @@
     "tailwindcss": "3.1.8",
     "vite": "3.0.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "4.0.0"
+  }
 }
