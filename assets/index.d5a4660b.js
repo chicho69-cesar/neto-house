@@ -3,7 +3,7 @@
             <div class="flex flex-row items-center justify-between 
             w-4/5 sm:w-2/3 mx-auto gap-4">
                 <section class="w-1/2 flex flex-row items-center justify-start">
-                    <a href="/" class="text-tahiti-800 dark:text-tahiti-100 text-3xl
+                    <a href="https://chicho69-cesar.github.io/neto-house/" class="text-tahiti-800 dark:text-tahiti-100 text-3xl
                     font-sans font-medium hover:cursor-pointer hover:text-tahiti-600
                     hover:dark:text-tahiti-200 transition-colors" id="logo">
                         Neto's House
