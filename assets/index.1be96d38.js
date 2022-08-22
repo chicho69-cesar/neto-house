@@ -3,11 +3,11 @@
             <div class="flex flex-row items-center justify-between 
             w-4/5 sm:w-2/3 mx-auto gap-4">
                 <section class="w-1/2 flex flex-row items-center justify-start">
-                    <h1 class="text-tahiti-800 dark:text-tahiti-100 text-3xl
+                    <a href="/" class="text-tahiti-800 dark:text-tahiti-100 text-3xl
                     font-sans font-medium hover:cursor-pointer hover:text-tahiti-600
                     hover:dark:text-tahiti-200 transition-colors" id="logo">
                         Neto's House
-                    </h1>
+                    </a>
                 </section>
 
                 <section class="w-1/2 text-right flex flex-row items-center justify-end">
@@ -142,4 +142,4 @@
                     A\xFAn no se que onda con los ba\xF1os \u{1F625}\u{1F919}
                 </h1>
             </section>
-        `};document.querySelector("#app").innerHTML=x();document.querySelector("#open-modal").addEventListener("click",()=>{h()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{y(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark"),document.querySelector("#logo").addEventListener("click",()=>{location.reload()})};
+        `};document.querySelector("#app").innerHTML=x();document.querySelector("#open-modal").addEventListener("click",()=>{h()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{y(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
