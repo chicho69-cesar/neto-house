@@ -22,8 +22,4 @@ document.body.onload = function() {
     if (userPrefersDark) {
         document.documentElement.classList.replace('light', 'dark');
     }
-
-    document.querySelector('#logo').addEventListener('click', () => {
-        location.reload();
-    });
 };
