@@ -1,42 +1,12 @@
 export const kitchenDates = () => {
     return [
         {
-            member: 'Luis Ernesto',
-            day: '22/Agosto/2022',
-            limitDay: '23/Agosto/2022'
-        },
-        {
-            member: 'Gabriel',
-            day: '24/Agosto/2022',
-            limitDay: '25/Agosto/2022'
-        },
-        {
-            member: 'Diego',
-            day: '26/Agosto/2022',
-            limitDay: '27/Agosto/2022'
-        },
-        {
-            member: 'Francisco',
-            day: '29/Agosto/2022',
-            limitDay: '30/Agosto/2022'
-        },
-        {
-            member: 'Brian',
-            day: '31/Agosto/2022',
-            limitDay: '01/Sept/2022'
-        },
-        {
-            member: 'Oliver',
-            day: '02/Sept/2022',
-            limitDay: '03/Sept/2022'
-        },
-        {
-            member: 'Jose',
+            member: 'Jose Mamado',
             day: '05/Sept/2022',
             limitDay: '06/Sept/2022'
         },
         {
-            member: 'Andres',
+            member: 'Andy Jhonson',
             day: '07/Sept/2022',
             limitDay: '08/Sept/2022'
         },
@@ -47,13 +17,38 @@ export const kitchenDates = () => {
         },
         {
             member: 'Cesar',
-            day: '13/Sept/2022',
-            limitDay: '14/Sept/2022'
+            day: '12/Sept/2022',
+            limitDay: '13/Sept/2022'
         },
         {
-            member: 'Samuel',
-            day: '15/Sept/2022',
-            limitDay: '16/Sept/2022'
+            member: 'Sammy Orines',
+            day: '14/Sept/2022',
+            limitDay: '15/Sept/2022'
+        },
+        {
+            member: 'Luis Alcoholico',
+            day: '16/Sept/2022',
+            limitDay: '17/Sept/2022'
+        },
+        {
+            member: 'Gabby',
+            day: '19/Sept/2022',
+            limitDay: '20/Sept/2022'
+        },
+        {
+            member: 'Diego',
+            day: '21/Sept/2022',
+            limitDay: '22/Sept/2022'
+        },
+        {
+            member: 'Brian',
+            day: '23/Sept/2022',
+            limitDay: '24/Sept/2022'
+        },
+        {
+            member: 'Hermilio',
+            day: '26/Sept/2022',
+            limitDay: '27/Sept/2022'
         }
     ];
 }
