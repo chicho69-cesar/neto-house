@@ -1,4 +1,4 @@
-(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))r(t);new MutationObserver(t=>{for(const e of t)if(e.type==="childList")for(const i of e.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&r(i)}).observe(document,{childList:!0,subtree:!0});function s(t){const e={};return t.integrity&&(e.integrity=t.integrity),t.referrerpolicy&&(e.referrerPolicy=t.referrerpolicy),t.crossorigin==="use-credentials"?e.credentials="include":t.crossorigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function r(t){if(t.ep)return;t.ep=!0;const e=s(t);fetch(t.href,e)}})();const c=()=>`
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))i(t);new MutationObserver(t=>{for(const e of t)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&i(r)}).observe(document,{childList:!0,subtree:!0});function s(t){const e={};return t.integrity&&(e.integrity=t.integrity),t.referrerpolicy&&(e.referrerPolicy=t.referrerpolicy),t.crossorigin==="use-credentials"?e.credentials="include":t.crossorigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function i(t){if(t.ep)return;t.ep=!0;const e=s(t);fetch(t.href,e)}})();const c=()=>`
         <header class="py-6">
             <div class="flex flex-row items-center justify-between 
             w-4/5 sm:w-2/3 mx-auto gap-4">
@@ -32,28 +32,28 @@
             y lavamanos.`}],u=()=>`
         <main class="w-4/5 sm:w-2/3 mx-auto my-8 grid grid-cols-1 gap-8
         lg:grid-cols-2 pb-8">
-            ${m().reduce((s,r)=>(s+=`
-            <article class="${r.id} bg-tahiti-200 p-4 rounded-lg shadow-md
+            ${m().reduce((s,i)=>(s+=`
+            <article class="${i.id} bg-tahiti-200 p-4 rounded-lg shadow-md
             shadow-tahiti-600 dark:bg-tahiti-600 dark:shadow-lg dark:shadow-zinc-900
             transform hover:-translate-y-1 hover:shadow-none dark:hover:shadow-none hover:cursor-pointer 
             transition-all flex flex-col gap-2 justify-between flex-nowrap items-start">
-                <h2 class="${r.id} text-2xl font-medium font-sans text-tahiti-900
+                <h2 class="${i.id} text-2xl font-medium font-sans text-tahiti-900
                 dark:text-gray-100">
-                    ${r.title}
+                    ${i.title}
                 </h2>
 
-                <p class="${r.id} text-base text-tahiti-700 dark:text-gray-300 italic">
+                <p class="${i.id} text-base text-tahiti-700 dark:text-gray-300 italic">
                     Tareas a realizar: 
                 </p>
 
-                <p class="${r.id} text-base leading-5 md:text-lg md:leading-6
+                <p class="${i.id} text-base leading-5 md:text-lg md:leading-6
                 text-tahiti-900 dark:text-gray-100 font-[450]">
-                    ${r.text}
+                    ${i.text}
                 </p>
             </article>
         `,s),"")}
         </main>
-    `,n=()=>[{member:"Luis Ernesto",day:"22/Agosto/2022",limitDay:"23/Agosto/2022"},{member:"Gabriel",day:"24/Agosto/2022",limitDay:"25/Agosto/2022"},{member:"Diego",day:"26/Agosto/2022",limitDay:"27/Agosto/2022"},{member:"Francisco",day:"29/Agosto/2022",limitDay:"30/Agosto/2022"},{member:"Brian",day:"31/Agosto/2022",limitDay:"01/Sept/2022"},{member:"Oliver",day:"02/Sept/2022",limitDay:"03/Sept/2022"},{member:"Jose",day:"05/Sept/2022",limitDay:"06/Sept/2022"},{member:"Andres",day:"07/Sept/2022",limitDay:"08/Sept/2022"},{member:"Adrian",day:"09/Sept/2022",limitDay:"10/Sept/2022"},{member:"Cesar",day:"13/Sept/2022",limitDay:"14/Sept/2022"},{member:"Samuel",day:"15/Sept/2022",limitDay:"16/Sept/2022"}],f=()=>{const a=new Date(Date.now());let o=a.getDate(),s=a.getMonth(),r=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[s]}`,e=`${e}/${r}`;for(let i of n())if(i.day===e||i.limitDay===e)return{title:"El aseo de hoy le toca a",person:i.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},p=()=>{let a=f();return`
+    `,n=()=>[{member:"Jose Mamado",day:"05/Sept/2022",limitDay:"06/Sept/2022"},{member:"Andy Jhonson",day:"07/Sept/2022",limitDay:"08/Sept/2022"},{member:"Adrian",day:"09/Sept/2022",limitDay:"10/Sept/2022"},{member:"Cesar",day:"12/Sept/2022",limitDay:"13/Sept/2022"},{member:"Sammy Orines",day:"14/Sept/2022",limitDay:"15/Sept/2022"},{member:"Luis Alcoholico",day:"16/Sept/2022",limitDay:"17/Sept/2022"},{member:"Gabby",day:"19/Sept/2022",limitDay:"20/Sept/2022"},{member:"Diego",day:"21/Sept/2022",limitDay:"22/Sept/2022"},{member:"Brian",day:"23/Sept/2022",limitDay:"24/Sept/2022"},{member:"Hermilio",day:"26/Sept/2022",limitDay:"27/Sept/2022"}],p=()=>{const a=new Date(Date.now());let o=a.getDate(),s=a.getMonth(),i=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[s]}`,e=`${e}/${i}`;for(let r of n())if(r.day===e||r.limitDay===e)return{title:"El aseo de hoy le toca a",person:r.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},f=()=>{let a=p();return`
         <div id="modal-component-container" class="fixed inset-0 hidden">
             <div class="modal-flex-container flex items-end justify-center 
             min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -102,8 +102,8 @@
     `},x=()=>`
         ${c()} 
         ${u()} 
-        ${p()}
-    `,h=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),s=document.querySelector("#modal-container");r(),a.addEventListener("click",()=>{t()});function r(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(s,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(s,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(i,l,d){i.classList.remove(...d),i.classList.add(...l)}},g=a=>a.reduce((o,s)=>o+`
+        ${f()}
+    `,h=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),s=document.querySelector("#modal-container");i(),a.addEventListener("click",()=>{t()});function i(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(s,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(s,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(r,l,d){r.classList.remove(...d),r.classList.add(...l)}},y=a=>a.reduce((o,s)=>o+`
             <article class="bg-tahiti-200 p-4 rounded-lg 
             dark:bg-tahiti-600 transform md:hover:scale-125 sm:hover:scale-110
             hover:scale-105 hover:shadow-lg hover:z-10 transition-all
@@ -136,10 +136,10 @@
                     </section>
                 </div>
             </article>
-        `,""),y=a=>{let o=+a.classList[0];const s=document.querySelector("main");o===1?s.innerHTML=g(n()):s.innerHTML=`
+        `,""),g=a=>{let o=+a.classList[0];const s=document.querySelector("main");o===1?s.innerHTML=y(n()):s.innerHTML=`
             <section class="col-start-1 col-end-3 w-full text-center py-8">
                 <h1 class="text-3xl text-red-500">
                     A\xFAn no se que onda con los ba\xF1os \u{1F625}\u{1F919}
                 </h1>
             </section>
-        `};document.querySelector("#app").innerHTML=x();document.querySelector("#open-modal").addEventListener("click",()=>{h()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{y(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
+        `};document.querySelector("#app").innerHTML=x();document.querySelector("#open-modal").addEventListener("click",()=>{h()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{g(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
