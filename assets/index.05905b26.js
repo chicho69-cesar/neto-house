@@ -53,7 +53,7 @@
             </article>
         `,s),"")}
         </main>
-    `,n=()=>[{member:"Jose Mamado",day:"05/Sept/2022",limitDay:"06/Sept/2022"},{member:"Andy Jhonson",day:"07/Sept/2022",limitDay:"08/Sept/2022"},{member:"Adrian Falacioso",day:"09/Sept/2022",limitDay:"10/Sept/2022"},{member:"Cesar Me Duermo",day:"12/Sept/2022",limitDay:"13/Sept/2022"},{member:"Sammy Orines",day:"14/Sept/2022",limitDay:"15/Sept/2022"},{member:"Luis Alcoholico",day:"16/Sept/2022",limitDay:"17/Sept/2022"},{member:"Gabby Jueves",day:"19/Sept/2022",limitDay:"20/Sept/2022"},{member:"Diego Adrian Verde",day:"21/Sept/2022",limitDay:"22/Sept/2022"},{member:"Brian Atxidentes",day:"23/Sept/2022",limitDay:"24/Sept/2022"},{member:"Hermilio Onta la botella",day:"26/Sept/2022",limitDay:"27/Sept/2022"}],p=()=>{const a=new Date(Date.now());let o=a.getDate(),s=a.getMonth(),i=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[s]}`,e=`${e}/${i}`;for(let r of n())if(r.day===e||r.limitDay===e)return{title:"El aseo de hoy le toca a",person:r.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},f=()=>{let a=p();return`
+    `,n=()=>[{member:"Jose Mamado",day:"28/Sept/2022",limitDay:"29/Sept/2022"},{member:"Andy Jhonson",day:"30/Sept/2022",limitDay:"01/Oct/2022"},{member:"Adrian Falacioso",day:"03/Oct/2022",limitDay:"04/Oct/2022"},{member:"Cesar Me Duermo",day:"05/Oct/2022",limitDay:"06/Oct/2022"},{member:"Sammy Orines",day:"07/Oct/2022",limitDay:"08/Oct/2022"},{member:"Luis Alcoholico",day:"10/Oct/2022",limitDay:"11/Oct/2022"},{member:"Gabby Jueves",day:"12/Oct/2022",limitDay:"13/Oct/2022"},{member:"Diego Adrian Verde",day:"14/Oct/2022",limitDay:"15/Oct/2022"},{member:"Brian Atxidentes",day:"17/Oct/2022",limitDay:"18/Oct/2022"},{member:"Hermilio Onta la botella",day:"19/Oct/2022",limitDay:"20/Oct/2022"}],f=()=>{const a=new Date(Date.now());let o=a.getDate(),s=a.getMonth(),i=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[s]}`,e=`${e}/${i}`;for(let r of n())if(r.day===e||r.limitDay===e)return{title:"El aseo de hoy le toca a",person:r.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},x=()=>{let a=f();return`
         <div id="modal-component-container" class="fixed inset-0 hidden">
             <div class="modal-flex-container flex items-end justify-center 
             min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -99,11 +99,11 @@
                 </div>
             </div>
         </div>
-    `},x=()=>`
+    `},h=()=>`
         ${c()} 
         ${u()} 
-        ${f()}
-    `,h=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),s=document.querySelector("#modal-container");i(),a.addEventListener("click",()=>{t()});function i(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(s,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(s,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(r,l,d){r.classList.remove(...d),r.classList.add(...l)}},y=a=>a.reduce((o,s)=>o+`
+        ${x()}
+    `,p=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),s=document.querySelector("#modal-container");i(),a.addEventListener("click",()=>{t()});function i(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(s,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(s,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(r,l,d){r.classList.remove(...d),r.classList.add(...l)}},y=a=>a.reduce((o,s)=>o+`
             <article class="bg-tahiti-200 p-4 rounded-lg 
             dark:bg-tahiti-600 transform md:hover:scale-125 sm:hover:scale-110
             hover:scale-105 hover:shadow-lg hover:z-10 transition-all
@@ -142,4 +142,4 @@
                     A\xFAn no se que onda con los ba\xF1os \u{1F625}\u{1F919}
                 </h1>
             </section>
-        `};document.querySelector("#app").innerHTML=x();document.querySelector("#open-modal").addEventListener("click",()=>{h()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{g(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
+        `};document.querySelector("#app").innerHTML=h();document.querySelector("#open-modal").addEventListener("click",()=>{p()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{g(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
