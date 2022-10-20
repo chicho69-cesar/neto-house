@@ -53,7 +53,7 @@
             </article>
         `,r),"")}
         </main>
-    `,n=()=>[{member:"Jose Mamado",day:"28/Sept/2022",limitDay:"29/Sept/2022"},{member:"Andy Jhonson",day:"30/Sept/2022",limitDay:"01/Octubre/2022"},{member:"Adrian Falacioso",day:"03/Octubre/2022",limitDay:"04/Octubre/2022"},{member:"Cesar Me Duermo",day:"05/Octubre/2022",limitDay:"06/Octubre/2022"},{member:"Sammy Orines",day:"07/Octubre/2022",limitDay:"08/Octubre/2022"},{member:"Luis Alcoholico",day:"10/Octubre/2022",limitDay:"11/Octubre/2022"},{member:"Gabby Jueves",day:"12/Octubre/2022",limitDay:"13/Octubre/2022"},{member:"Diego Adrian Verde",day:"14/Octubre/2022",limitDay:"15/Octubre/2022"},{member:"Brian Atxidentes",day:"17/Octubre/2022",limitDay:"18/Octubre/2022"},{member:"Hermilio Onta la botella",day:"19/Octubre/2022",limitDay:"20/Octubre/2022"}],f=()=>{const a=new Date(Date.now());let o=a.getDate(),r=a.getMonth(),s=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[r]}`,e=`${e}/${s}`;for(let i of n())if(i.day===e||i.limitDay===e)return{title:"El aseo de hoy le toca a",person:i.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},x=()=>{let a=f();return`
+    `,n=()=>[{member:"Jose Mamado",day:"21/Octubre/2022",limitDay:"22/Octubre/2022"},{member:"Andy Jhonson",day:"24/Octubre/2022",limitDay:"25/Octubre/2022"},{member:"Adrian Falacioso",day:"26/Octubre/2022",limitDay:"27/Octubre/2022"},{member:"Cesar Me Duermo",day:"28/Octubre/2022",limitDay:"29/Octubre/2022"},{member:"Sammy Orines",day:"31/Octubre/2022",limitDay:"01/Nov/2022"},{member:"Luis Alcoholico",day:"02/Nov/2022",limitDay:"03/Nov/2022"},{member:"Gabby Jueves",day:"04/Nov/2022",limitDay:"05/Nov/2022"},{member:"Diego Adrian Verde",day:"07/Nov/2022",limitDay:"08/Nov/2022"},{member:"Brian Atxidentes",day:"09/Nov/2022",limitDay:"10/Nov/2022"},{member:"Hermilio Onta la botella",day:"11/Nov/2022",limitDay:"12/Nov/2022"}],f=()=>{const a=new Date(Date.now());let o=a.getDate(),r=a.getMonth(),s=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[r]}`,e=`${e}/${s}`;for(let i of n())if(i.day===e||i.limitDay===e)return{title:"El aseo de hoy le toca a",person:i.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},x=()=>{let a=f();return`
         <div id="modal-component-container" class="fixed inset-0 hidden">
             <div class="modal-flex-container flex items-end justify-center 
             min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -103,7 +103,7 @@
         ${c()} 
         ${u()} 
         ${x()}
-    `,p=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),r=document.querySelector("#modal-container");s(),a.addEventListener("click",()=>{t()});function s(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(r,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(r,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(i,l,d){i.classList.remove(...d),i.classList.add(...l)}},b=a=>a.reduce((o,r)=>o+`
+    `,p=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),r=document.querySelector("#modal-container");s(),a.addEventListener("click",()=>{t()});function s(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(r,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(r,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(i,l,d){i.classList.remove(...d),i.classList.add(...l)}},y=a=>a.reduce((o,r)=>o+`
             <article class="bg-tahiti-200 p-4 rounded-lg 
             dark:bg-tahiti-600 transform md:hover:scale-125 sm:hover:scale-110
             hover:scale-105 hover:shadow-lg hover:z-10 transition-all
@@ -136,10 +136,10 @@
                     </section>
                 </div>
             </article>
-        `,""),y=a=>{let o=+a.classList[0];const r=document.querySelector("main");o===1?r.innerHTML=b(n()):r.innerHTML=`
+        `,""),b=a=>{let o=+a.classList[0];const r=document.querySelector("main");o===1?r.innerHTML=y(n()):r.innerHTML=`
             <section class="col-start-1 col-end-3 w-full text-center py-8">
                 <h1 class="text-3xl text-red-500">
                     A\xFAn no se que onda con los ba\xF1os \u{1F625}\u{1F919}
                 </h1>
             </section>
-        `};document.querySelector("#app").innerHTML=h();document.querySelector("#open-modal").addEventListener("click",()=>{p()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{y(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
+        `};document.querySelector("#app").innerHTML=h();document.querySelector("#open-modal").addEventListener("click",()=>{p()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{b(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
