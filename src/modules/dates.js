@@ -1,7 +1,7 @@
 export const kitchenDates = () => {
     return [
         {
-            member: 'Jose Mamado',
+            member: 'Jose Chico Fit',
             day: '21/Octubre/2022',
             limitDay: '22/Octubre/2022'
         },
