@@ -1,4 +1,4 @@
-(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))s(t);new MutationObserver(t=>{for(const e of t)if(e.type==="childList")for(const i of e.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&s(i)}).observe(document,{childList:!0,subtree:!0});function r(t){const e={};return t.integrity&&(e.integrity=t.integrity),t.referrerpolicy&&(e.referrerPolicy=t.referrerpolicy),t.crossorigin==="use-credentials"?e.credentials="include":t.crossorigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function s(t){if(t.ep)return;t.ep=!0;const e=r(t);fetch(t.href,e)}})();const c=()=>`
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))s(t);new MutationObserver(t=>{for(const e of t)if(e.type==="childList")for(const r of e.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&s(r)}).observe(document,{childList:!0,subtree:!0});function i(t){const e={};return t.integrity&&(e.integrity=t.integrity),t.referrerpolicy&&(e.referrerPolicy=t.referrerpolicy),t.crossorigin==="use-credentials"?e.credentials="include":t.crossorigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function s(t){if(t.ep)return;t.ep=!0;const e=i(t);fetch(t.href,e)}})();const c=()=>`
         <header class="py-6">
             <div class="flex flex-row items-center justify-between 
             w-4/5 sm:w-2/3 mx-auto gap-4">
@@ -32,7 +32,7 @@
             y lavamanos.`}],u=()=>`
         <main class="w-4/5 sm:w-2/3 mx-auto my-8 grid grid-cols-1 gap-8
         lg:grid-cols-2 pb-8">
-            ${m().reduce((r,s)=>(r+=`
+            ${m().reduce((i,s)=>(i+=`
             <article class="${s.id} bg-tahiti-200 p-4 rounded-lg shadow-md
             shadow-tahiti-600 dark:bg-tahiti-600 dark:shadow-lg dark:shadow-zinc-900
             transform hover:-translate-y-1 hover:shadow-none dark:hover:shadow-none hover:cursor-pointer 
@@ -51,9 +51,9 @@
                     ${s.text}
                 </p>
             </article>
-        `,r),"")}
+        `,i),"")}
         </main>
-    `,n=()=>[{member:"Jose Chico Fit",day:"21/Octubre/2022",limitDay:"22/Octubre/2022"},{member:"Andy Jhonson",day:"24/Octubre/2022",limitDay:"25/Octubre/2022"},{member:"Adrian Falacioso",day:"26/Octubre/2022",limitDay:"27/Octubre/2022"},{member:"Cesar Me Duermo",day:"28/Octubre/2022",limitDay:"29/Octubre/2022"},{member:"Sammy Orines",day:"31/Octubre/2022",limitDay:"01/Nov/2022"},{member:"Luis Alcoholico",day:"02/Nov/2022",limitDay:"03/Nov/2022"},{member:"Gabby Jueves",day:"04/Nov/2022",limitDay:"05/Nov/2022"},{member:"Diego Adrian Verde",day:"07/Nov/2022",limitDay:"08/Nov/2022"},{member:"Brian Atxidentes",day:"09/Nov/2022",limitDay:"10/Nov/2022"},{member:"Hermilio Onta la botella",day:"11/Nov/2022",limitDay:"12/Nov/2022"}],f=()=>{const a=new Date(Date.now());let o=a.getDate(),r=a.getMonth(),s=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[r]}`,e=`${e}/${s}`;for(let i of n())if(i.day===e||i.limitDay===e)return{title:"El aseo de hoy le toca a",person:i.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},x=()=>{let a=f();return`
+    `,n=()=>[{member:"Jose Chico Fit",day:"14/Nov/2022",limitDay:"15/Nov/2022"},{member:"Andy Jhonson",day:"16/Nov/2022",limitDay:"17/Nov/2022"},{member:"Adrian Falacioso",day:"18/Nov/2022",limitDay:"19/Nov/2022"},{member:"Cesar Me Duermo",day:"21/Nov/2022",limitDay:"22/Nov/2022"},{member:"Sammy Orines",day:"23/Nov/2022",limitDay:"24/Nov/2022"},{member:"Luis Alcoholico",day:"25/Nov/2022",limitDay:"26/Nov/2022"},{member:"Gabby Jueves",day:"28/Nov/2022",limitDay:"29/Nov/2022"},{member:"Diego Adrian Verde",day:"30/Nov/2022",limitDay:"01/Dic/2022"},{member:"Brian Atxidentes",day:"02/Dic/2022",limitDay:"03/Dic/2022"},{member:"Hermilio Onta la botella",day:"05/Dic/2022",limitDay:"06/Dic/2022"}],f=()=>{const a=new Date(Date.now());let o=a.getDate(),i=a.getMonth(),s=a.getFullYear();const t=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Sept","Octubre","Nov","Dic"];let e="";e=o<10?`0${o}`:`${o}`,e=`${e}/${t[i]}`,e=`${e}/${s}`;for(let r of n())if(r.day===e||r.limitDay===e)return{title:"El aseo de hoy le toca a",person:r.member,band:!0};return{title:"El aseo de hoy no le toca a",person:"Nadie",band:!1}},x=()=>{let a=f();return`
         <div id="modal-component-container" class="fixed inset-0 hidden">
             <div class="modal-flex-container flex items-end justify-center 
             min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -103,14 +103,14 @@
         ${c()} 
         ${u()} 
         ${x()}
-    `,p=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),r=document.querySelector("#modal-container");s(),a.addEventListener("click",()=>{t()});function s(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(r,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(r,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(i,l,d){i.classList.remove(...d),i.classList.add(...l)}},y=a=>a.reduce((o,r)=>o+`
+    `,p=()=>{const a=document.querySelector("#close-modal"),o=document.querySelector("#modal-component-container"),i=document.querySelector("#modal-container");s(),a.addEventListener("click",()=>{t()});function s(){e(o,["block","animate-bg-fadeIn"],["hidden","animate-bg-fadeOut"]),e(i,["animate-modal-scaleIn"],["animate-modal-scaleOut"])}function t(){e(o,["animate-bg-fadeOut"],["animate-bg-fadeIn"]),e(i,["animate-modal-scaleOut"],["animate-modal-scaleIn"]),setTimeout(()=>{e(o,["hidden"],["block"])},500)}function e(r,l,d){r.classList.remove(...d),r.classList.add(...l)}},y=a=>a.reduce((o,i)=>o+`
             <article class="bg-tahiti-200 p-4 rounded-lg 
             dark:bg-tahiti-600 transform md:hover:scale-125 sm:hover:scale-110
             hover:scale-105 hover:shadow-lg hover:z-10 transition-all
             flex flex-col gap-2 justify-between flex-nowrap items-start">
                 <h2 class="text-2xl font-medium font-sans w-full text-center
                 text-tahiti-900 dark:text-gray-100">
-                    ${r.member}
+                    ${i.member}
                 </h2>
 
                 <div class="w-full flex flex-row flex-nowrap justify-around
@@ -121,7 +121,7 @@
                         </p>
 
                         <p class="font-sans italic text-green-800 text-base md:text-lg">
-                            ${r.day}
+                            ${i.day}
                         </p>
                     </section>
 
@@ -131,15 +131,15 @@
                         </p>
 
                         <p class="font-sans italic text-red-800 text-base md:text-lg">
-                            ${r.limitDay}
+                            ${i.limitDay}
                         </p>
                     </section>
                 </div>
             </article>
-        `,""),b=a=>{let o=+a.classList[0];const r=document.querySelector("main");o===1?r.innerHTML=y(n()):r.innerHTML=`
+        `,""),g=a=>{let o=+a.classList[0];const i=document.querySelector("main");o===1?i.innerHTML=y(n()):i.innerHTML=`
             <section class="col-start-1 col-end-3 w-full text-center py-8">
                 <h1 class="text-3xl text-red-500">
                     A\xFAn no se que onda con los ba\xF1os \u{1F625}\u{1F919}
                 </h1>
             </section>
-        `};document.querySelector("#app").innerHTML=h();document.querySelector("#open-modal").addEventListener("click",()=>{p()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{b(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
+        `};document.querySelector("#app").innerHTML=h();document.querySelector("#open-modal").addEventListener("click",()=>{p()});document.querySelectorAll("article").forEach(a=>{a.addEventListener("click",o=>{g(o.target)})});document.body.onload=function(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.replace("light","dark")};
