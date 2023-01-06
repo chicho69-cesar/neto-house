@@ -12,7 +12,7 @@ module.exports = {
         '144': '36rem',
       },
       borderRadius: {
-        '4xl': '2rem',
+        '4xl': '2rem'
       },
       colors: {
         'tahiti': {
