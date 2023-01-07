@@ -1,11 +1,17 @@
 import { months } from "../modules/data";
 
-export function getTodayDateInString() {
+export function getCurrentDate() {
   const dateNow = new Date(Date.now());
 
-	let day = dateNow.getDate(), 
-		month = dateNow.getMonth(), 
-		year = dateNow.getFullYear();
+  let day = dateNow.getDate();
+	let month = dateNow.getMonth(); 
+	let year = dateNow.getFullYear();
+
+  return { day, month, year };
+}
+
+export function getTodayDateInString() {
+  let { day, month, year } = getCurrentDate();
 
   let arrayMonths = months();
   let completeMonth = arrayMonths
