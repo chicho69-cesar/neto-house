@@ -10,6 +10,7 @@ yarn build
 cd dist
 
 # if you are deploying to a custom domain
+# here I will put my domain
 # echo 'www.example.com' > CNAME
 
 git init
