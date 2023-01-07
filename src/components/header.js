@@ -1,6 +1,6 @@
 import logo from '/public/favicon.jpg'
 
-export default function header() {
+const header = () => {
   return `
     <header class="w-full p-4 flex flex-row justify-between items-center" id="home">
       <div class="logo hover:scale-95 transition">
@@ -48,3 +48,5 @@ export default function header() {
     </header>
   `;
 }
+
+export default header
