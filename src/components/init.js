@@ -1,4 +1,4 @@
-export default function init() {
+const init = () => {
   return `
     <main>
       <section>
@@ -19,3 +19,5 @@ export default function init() {
     </main>
   `;
 }
+
+export default init;
