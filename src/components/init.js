@@ -16,6 +16,8 @@ const init = () => {
           Sammy
         </h3>
       </aside>
+
+      <button id="open-modal">Probar</button>
     </main>
   `;
 }

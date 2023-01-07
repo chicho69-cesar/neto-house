@@ -101,6 +101,7 @@ export function kitchenDates() {
 		{
 			month: 0,
 			dates: [
+				// { day: 5, limit: 6, roomie: 3 },
 				{ day: 23, limit: 24, roomie: 1 },
 				{ day: 25, limit: 26, roomie: 2 },
 				{ day: 27, limit: 28, roomie: 3 },
