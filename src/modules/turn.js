@@ -1,23 +1,11 @@
-import { kitchenDates } from "../modules/dates";
+import { getTodayDateInString } from "../utils/dates";
+import { kitchenDates } from "./data";
 
-const getInfo = () => {
-	const dateNow = new Date(Date.now());
-	let day = dateNow.getDate(), 
-		month = dateNow.getMonth(), 
-		year = dateNow.getFullYear();
+export default function getInfo() {
+	let dateNowStr = getTodayDateInString();
+	let dates = kitchenDates();
 
-	const months = [
-		'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-		'Julio', 'Agosto', 'Sept', 'Octubre', 'Nov', 'Dic'
-	];
-
-	let dateNowStr = '';
-
-	dateNowStr = day < 10 ? `0${ day }` : `${ day }`;
-	dateNowStr = `${ dateNowStr }/${ months[month] }`;
-	dateNowStr = `${ dateNowStr }/${ year }`;
-
-	for (let date of kitchenDates()) {
+	for (let date of dates) {
 		if (date.day === dateNowStr || date.limitDay === dateNowStr) {
 			return {
 				title: 'El aseo de hoy le toca a',
@@ -33,5 +21,3 @@ const getInfo = () => {
 		band: false
 	};
 }
-
-export default getInfo;

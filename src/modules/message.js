@@ -1,4 +1,4 @@
-export const message = () => {
+export function message() {
 	const closeButton = document.querySelector('#close-modal');
 	const modalContainer = document.querySelector('#modal-component-container');
 	const modal = document.querySelector('#modal-container');
