@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (prefers-color-scheme: light) {
+  .fc-toolbar-title {
+    color: #000;
+    text-transform: capitalize;
+  }
+
+  .fc-col-header-cell-cushion,
+  .fc-daygrid-day-number {
+    color: #202020;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .fc-toolbar-title {
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  .fc-col-header-cell-cushion,
+  .fc-daygrid-day-number,
+  .fc-scrollgrid-shrink-cushion,
+  .fc-more-link {
+    color: #ddd;
+  }
+}

@@ -4,7 +4,7 @@ export function roomies() {
 			id: 1,
 			name: 'Jose Chicho Fit',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Red'
+			color: 'Green'
 		},
 		{
 			id: 2,
@@ -16,7 +16,7 @@ export function roomies() {
 			id: 3,
 			name: 'Adrian Falacioso',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Red'
+			color: 'Green'
 		},
 		{
 			id: 4,
@@ -28,7 +28,7 @@ export function roomies() {
 			id: 5,
 			name: 'Sammy Orines',
 			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/319841532_495529272645357_6702246537933245683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NaeDlV1e62UAX9e63E_&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAtZBEtbcuAJ7pds6ivZA4rDOzhw16ki0mwPOStmQ81gA&oe=63C55784',
-			color: 'Red'
+			color: 'Green'
 		},
 		{
 			id: 6,
@@ -40,7 +40,7 @@ export function roomies() {
 			id: 7,
 			name: 'Gabby Jueves',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Red'
+			color: 'Green'
 		},
 		{
 			id: 8,
@@ -52,7 +52,7 @@ export function roomies() {
 			id: 9,
 			name: 'Pancho numero 1',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Red'
+			color: 'Green'
 		},
 		{
 			id: 10,

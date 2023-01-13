@@ -3,7 +3,7 @@ import bathComponent from "./bath-component";
 
 const bath = () => {
   return `
-    <div class="pt-12 my-20">
+    <div class="pt-12 my-20" id="bath">
       <div class="w-full md:w-2/3 mx-auto">
         <h3 class="text-3xl font-bold text-black dark:text-white text-center mb-4">
           ¿Rol de los baños?

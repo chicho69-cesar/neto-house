@@ -1,6 +1,8 @@
 const kitchen = () => {
   return `
-    <div id="calendar"></div>
+    <div id="kitchen">
+      <div id="calendar" class="my-16 pt-6"></div>
+    </div>
   `;
 }
 
