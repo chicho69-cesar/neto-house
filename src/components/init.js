@@ -3,10 +3,8 @@ import { getRoomieTodayTurn } from "../utils/roomies";
 const init = () => {
   const { roomie } = getRoomieTodayTurn();
 
-  console.log(roomie);
-
   return `
-    <div class="pt-12 flex flex-row flex-wrap justify-evenly gap-12 items-start">
+    <div class="py-12 my-6 flex flex-row flex-wrap justify-center gap-12 items-start">
       <main>
         <section>
           <h2 class="mb-2 text-3xl font-bold text-black dark:text-white">

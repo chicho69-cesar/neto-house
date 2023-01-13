@@ -27,20 +27,20 @@ const header = () => {
           </li>
 
           <li>
-            <a href="#bath" class="text-lg text-tahiti-800 dark:text-white
-            border-2 border-transparent rounded-lg hover:border-yellow-400
-            hover:text-yellow-400 dark:hover:text-yellow-400 transition py-2 px-4">
-              <i class="bi bi-person-lock"></i> 
-              <span class="hidden md:inline">baños</span>
-            </a>
-          </li>
-
-          <li>
             <a href="#kitchen" class="text-lg text-tahiti-800 dark:text-white
             border-2 border-transparent rounded-lg hover:border-yellow-400
             hover:text-yellow-400 dark:hover:text-yellow-400 transition py-2 px-4">
               <i class="bi bi-basket"></i> 
               <span class="hidden md:inline">cocina</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#bath" class="text-lg text-tahiti-800 dark:text-white
+            border-2 border-transparent rounded-lg hover:border-yellow-400
+            hover:text-yellow-400 dark:hover:text-yellow-400 transition py-2 px-4">
+              <i class="bi bi-person-lock"></i> 
+              <span class="hidden md:inline">baños</span>
             </a>
           </li>
         </ul>
