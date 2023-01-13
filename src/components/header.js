@@ -40,7 +40,7 @@ const header = () => {
             border-2 border-transparent rounded-lg hover:border-yellow-400
             hover:text-yellow-400 dark:hover:text-yellow-400 transition py-2 px-4">
               <i class="bi bi-basket"></i> 
-              <span class="hidden md:inline">kitchen</span>
+              <span class="hidden md:inline">cocina</span>
             </a>
           </li>
         </ul>
@@ -49,4 +49,4 @@ const header = () => {
   `;
 }
 
-export default header
+export default header;
