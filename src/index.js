@@ -10,8 +10,8 @@ const index = () => {
 		<div class="w-4/5 mx-auto p-6">
 			${ header() }
 			${ init() }
-			${ bath() }
 			${ kitchen() }
+			${ bath() }
 
 			${ buttonModal() }
 			${ modal() }
