@@ -38,7 +38,11 @@ export function getRoomieTodayTurn() {
   if (roomieDataCleanliness === undefined) {
     return {
       todayFree: true,
-      roomie: {}
+      roomie: {
+        id: 0,
+        name: 'Nadie',
+        image: 'https://img.youtube.com/vi/FYrZfF9eK_k/0.jpg'
+      }
     };
   }
 
@@ -48,4 +52,8 @@ export function getRoomieTodayTurn() {
     todayFree: false,
     roomie
   };
+}
+
+export function getRoomie(id) {
+  return roomies().find(roomie => roomie.id === id);
 }

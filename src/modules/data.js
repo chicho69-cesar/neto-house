@@ -39,7 +39,17 @@ export function roomies() {
 			id: 8,
 			name: 'Diegoooooo',
 			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/279665627_1041088890157256_7386884349206519305_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hd0HKl-HrYgAX9l3Aaf&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBpxD0ZZpQbxD8LtanuxVgEn9mQhJnCqzccElCctAN1Jg&oe=63C4F25E'
-		}
+		},
+		{
+			id: 9,
+			name: 'Pancho numero 1',
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+		},
+		{
+			id: 10,
+			name: 'Pancho numero 2',
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+		},
 	];
 }
 
@@ -92,6 +102,29 @@ export function months() {
 		{
 			id: 11,
 			month: 'Diciembre'
+		},
+	];
+}
+
+export function baths() {
+	return [
+		{
+			id: 1,
+			location: 'Baño de arriba',
+			gif: 'https://media.tenor.com/UqtmN0l28v0AAAAC/ba%C3%B1o-jabon.gif',
+			roomies: [ 1, 9, 10 ]
+		},
+		{
+			id: 2,
+			location: 'Primer baño de abajo',
+			gif: 'https://www.recreoviral.com/wp-content/uploads/2016/07/Trucos-para-limpiar-ba%C3%B1o-4.gif',
+			roomies: [ 2, 3, 5, 8 ]
+		},
+		{
+			id: 3,
+			location: 'El baño de la esquina',
+			gif: 'https://i.gifer.com/IroY.gif',
+			roomies: [ 4, 6, 7 ]
 		},
 	];
 }
