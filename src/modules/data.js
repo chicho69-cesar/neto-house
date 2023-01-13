@@ -3,52 +3,62 @@ export function roomies() {
 		{
 			id: 1,
 			name: 'Jose Chicho Fit',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+			color: 'Red'
 		},
 		{
 			id: 2,
 			name: 'Andy Jhonson',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/295623579_3179403625650238_4642092054967034801_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3Z8pO4AdxY8AX-mH0O2&_nc_oc=AQkCrFRXv5bDNk8PK52CLgyX8Uq7OJTD9mjFc5utpIK4_PocsDqjiki_rkeNFpZ-L6g&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCL_NuUt7U-dBWEEj9rox-TyOeDo96aDS5vm4Qxh-7t7A&oe=63C69C6A'
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/295623579_3179403625650238_4642092054967034801_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3Z8pO4AdxY8AX-mH0O2&_nc_oc=AQkCrFRXv5bDNk8PK52CLgyX8Uq7OJTD9mjFc5utpIK4_PocsDqjiki_rkeNFpZ-L6g&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCL_NuUt7U-dBWEEj9rox-TyOeDo96aDS5vm4Qxh-7t7A&oe=63C69C6A',
+			color: 'Blue'
 		},
 		{
 			id: 3,
 			name: 'Adrian Falacioso',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+			color: 'Red'
 		},
 		{
 			id: 4,
 			name: 'Cesar Me Duermo',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.6435-9/121572456_1310822899263465_3679081955565007897_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7jNXkrdsjhYAX-BJ1kO&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBeH3SxRfPNmS60NzJBtH5brpREnacghPnfsT-rLich0A&oe=63E85F41'
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.6435-9/121572456_1310822899263465_3679081955565007897_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7jNXkrdsjhYAX-BJ1kO&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBeH3SxRfPNmS60NzJBtH5brpREnacghPnfsT-rLich0A&oe=63E85F41',
+			color: 'Blue'
 		},
 		{
 			id: 5,
 			name: 'Sammy Orines',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/319841532_495529272645357_6702246537933245683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NaeDlV1e62UAX9e63E_&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAtZBEtbcuAJ7pds6ivZA4rDOzhw16ki0mwPOStmQ81gA&oe=63C55784'
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/319841532_495529272645357_6702246537933245683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NaeDlV1e62UAX9e63E_&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAtZBEtbcuAJ7pds6ivZA4rDOzhw16ki0mwPOStmQ81gA&oe=63C55784',
+			color: 'Red'
 		},
 		{
 			id: 6,
 			name: 'Luis Alcoholico',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.6435-9/140362090_1323627364681862_8292445935582333163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nALgkdMQXGsAX88vVaQ&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCmXlsIwEg3NQvL-PqZnwf11BxSYs7Q6ZmRj8vQW8aSEg&oe=63E863D3'
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.6435-9/140362090_1323627364681862_8292445935582333163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nALgkdMQXGsAX88vVaQ&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCmXlsIwEg3NQvL-PqZnwf11BxSYs7Q6ZmRj8vQW8aSEg&oe=63E863D3',
+			color: 'Blue'
 		},
 		{
 			id: 7,
 			name: 'Gabby Jueves',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+			color: 'Red'
 		},
 		{
 			id: 8,
 			name: 'Diegoooooo',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/279665627_1041088890157256_7386884349206519305_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hd0HKl-HrYgAX9l3Aaf&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBpxD0ZZpQbxD8LtanuxVgEn9mQhJnCqzccElCctAN1Jg&oe=63C4F25E'
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/279665627_1041088890157256_7386884349206519305_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hd0HKl-HrYgAX9l3Aaf&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBpxD0ZZpQbxD8LtanuxVgEn9mQhJnCqzccElCctAN1Jg&oe=63C4F25E',
+			color: 'Blue'
 		},
 		{
 			id: 9,
 			name: 'Pancho numero 1',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+			color: 'Red'
 		},
 		{
 			id: 10,
 			name: 'Pancho numero 2',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+			color: 'Blue'
 		},
 	];
 }

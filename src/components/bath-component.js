@@ -30,7 +30,7 @@ const bathComponent = (bath, isLeft) => {
   return isLeft 
     ? `
       <div>
-        <h4 class="text-xl text-black dark:text-white mb-4">
+        <h4 class="text-xl text-black dark:text-white font-semibold mb-4">
           ${ bath.location }
         </h4>
 
@@ -40,7 +40,7 @@ const bathComponent = (bath, isLeft) => {
       </div>
 
       <div>
-        <h5 class="text-lg text-black dark:text-white mb-4">
+        <h5 class="text-lg text-black dark:text-white font-semibold mb-4">
           Los que les toca este baño
         </h5>
 
@@ -51,7 +51,7 @@ const bathComponent = (bath, isLeft) => {
     `
     : `
       <div>
-        <h5 class="text-lg text-black dark:text-white mb-4">
+        <h5 class="text-lg text-black dark:text-white font-semibold mb-4">
           Los que les toca este baño
         </h5>
         
@@ -61,7 +61,7 @@ const bathComponent = (bath, isLeft) => {
       </div>
 
       <div class="order-first md:order-2">
-        <h4 class="text-xl text-black dark:text-white mb-4">
+        <h4 class="text-xl text-black dark:text-white font-semibold mb-4">
           ${ bath.location }
         </h4>
 

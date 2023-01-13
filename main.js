@@ -3,6 +3,7 @@ import './src/index.css';
 
 import index from './src/index';
 import { message } from './src/modules/message';
+import { renderCalendar } from './src/modules/calendar';
 
 document.querySelector('#app').innerHTML = index();
 
@@ -16,4 +17,6 @@ document.body.onload = function() {
 	if (userPrefersDark) {
 		document.documentElement.classList.replace('light', 'dark');
 	}
+
+	renderCalendar();
 };
