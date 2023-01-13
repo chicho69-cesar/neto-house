@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: light) {
   .fc-toolbar-title {
     color: #000;
