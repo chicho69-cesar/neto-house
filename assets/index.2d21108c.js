@@ -78,7 +78,7 @@
   `,Os="/neto-house/assets/favicon.2331d8e7.jpg",Ps=()=>`
     <header class="w-full p-4 flex flex-row justify-between items-center" id="home">
       <div class="logo hover:scale-95 transition">
-        <a class="flex flex-row gap-2 justify-start items-center" href="/">
+        <a class="flex flex-row gap-2 justify-start items-center" href="https://chicho69-cesar.github.io/neto-house/">
           <img class="w-8 h-8 md:w-12 md:h-12 object-cover object-center shadow-md rounded-md" 
           src="${Os}"/>
           
