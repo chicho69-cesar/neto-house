@@ -9,7 +9,7 @@ export function roomies() {
 		{
 			id: 2,
 			name: 'Andy Jhonson',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/295623579_3179403625650238_4642092054967034801_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3Z8pO4AdxY8AX-mH0O2&_nc_oc=AQkCrFRXv5bDNk8PK52CLgyX8Uq7OJTD9mjFc5utpIK4_PocsDqjiki_rkeNFpZ-L6g&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCL_NuUt7U-dBWEEj9rox-TyOeDo96aDS5vm4Qxh-7t7A&oe=63C69C6A',
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/295623579_3179403625650238_4642092054967034801_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHkf8FVH6wVOYSFyMg03SOjJbvBRFGamaYlu8FEUZqZpoEP01hbWz59EZP0ZgeE7ZvfW2AyQDVNfeer_7e94FKH&_nc_ohc=zcIE6XxbCP8AX_dPNAn&_nc_oc=AQl6jqOjpX25zTCC1uhY1gSsa4r0ILyTfjJvu2d0U0bMHGkdKH1U7FIhFAIxtolF1QU&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAH8lSoiPhIXSC4KaUZ1VvJ0VQMBbydvYVe6G6Y-pVaYw&oe=63DA62EA',
 			color: 'Blue'
 		},
 		{
@@ -27,7 +27,7 @@ export function roomies() {
 		{
 			id: 5,
 			name: 'Sammy Orines',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/319841532_495529272645357_6702246537933245683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NaeDlV1e62UAX9e63E_&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAtZBEtbcuAJ7pds6ivZA4rDOzhw16ki0mwPOStmQ81gA&oe=63C55784',
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/319841532_495529272645357_6702246537933245683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGgFwIJ6cOxyGVfY80gnWfE5n32yalYdU_mffbJqVh1TxZeE4cq3YaKfFYtB10YREed_v-vZ77Bu7R5Z-7HX4bB&_nc_ohc=kZImnDSbIssAX8pkA2C&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBfUnAJc4W7kNrU62JpzFBu3oftmmhCyd9Cu3N7oZYt8A&oe=63D91E04',
 			color: 'Green'
 		},
 		{
@@ -45,7 +45,7 @@ export function roomies() {
 		{
 			id: 8,
 			name: 'Diegoooooo',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/279665627_1041088890157256_7386884349206519305_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hd0HKl-HrYgAX9l3Aaf&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBpxD0ZZpQbxD8LtanuxVgEn9mQhJnCqzccElCctAN1Jg&oe=63C4F25E',
+			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/279665627_1041088890157256_7386884349206519305_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGSPf5yeEQyUQb1Gxp3FpU4_IG8EmlBXCv8gbwSaUFcK6aH76WuPmiSnO5Aawhrcsndnz0qw_W4EgHCVCFeAPvl&_nc_ohc=lX1r1XfY-NUAX_Nwhpo&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAkUs7Q9V_eNlV1f6eutroKvTqPOvc_zfhloHgZPRjUdQ&oe=63D8B8DE',
 			color: 'Blue'
 		},
 		{
@@ -128,7 +128,7 @@ export function baths() {
 			id: 1,
 			location: 'Baño de arriba',
 			gif: 'https://media.tenor.com/UqtmN0l28v0AAAAC/ba%C3%B1o-jabon.gif',
-			roomies: [ 1, 9, 10 ]
+			roomies: [ 1, 10, 11 ]
 		},
 		{
 			id: 2,
@@ -140,7 +140,7 @@ export function baths() {
 			id: 3,
 			location: 'El baño de la esquina',
 			gif: 'https://i.gifer.com/IroY.gif',
-			roomies: [ 4, 6, 7 ]
+			roomies: [ 4, 6, 7, 9 ]
 		},
 	];
 }
