@@ -4,55 +4,55 @@ export function roomies() {
 			id: 1,
 			name: 'Jose Chicho Fit',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Green'
+			color: 'red'
 		},
 		{
 			id: 2,
 			name: 'Andy Jhonson',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/295623579_3179403625650238_4642092054967034801_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHkf8FVH6wVOYSFyMg03SOjJbvBRFGamaYlu8FEUZqZpoEP01hbWz59EZP0ZgeE7ZvfW2AyQDVNfeer_7e94FKH&_nc_ohc=zcIE6XxbCP8AX_dPNAn&_nc_oc=AQl6jqOjpX25zTCC1uhY1gSsa4r0ILyTfjJvu2d0U0bMHGkdKH1U7FIhFAIxtolF1QU&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAH8lSoiPhIXSC4KaUZ1VvJ0VQMBbydvYVe6G6Y-pVaYw&oe=63DA62EA',
-			color: 'Blue'
+			image: 'https://i.pinimg.com/564x/34/f9/07/34f9072d158d176d922d652975982a18.jpg',
+			color: 'green'
 		},
 		{
 			id: 3,
 			name: 'Adrian Falacioso',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Green'
+			color: 'blue'
 		},
 		{
 			id: 4,
 			name: 'Cesar Me Duermo',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.6435-9/121572456_1310822899263465_3679081955565007897_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7jNXkrdsjhYAX-BJ1kO&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBeH3SxRfPNmS60NzJBtH5brpREnacghPnfsT-rLich0A&oe=63E85F41',
-			color: 'Blue'
+			image: 'https://i.pinimg.com/736x/2c/4c/67/2c4c67f144c8ed1600be38d06d8d1765.jpg',
+			color: 'purple'
 		},
 		{
 			id: 5,
 			name: 'Sammy Orines',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/319841532_495529272645357_6702246537933245683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGgFwIJ6cOxyGVfY80gnWfE5n32yalYdU_mffbJqVh1TxZeE4cq3YaKfFYtB10YREed_v-vZ77Bu7R5Z-7HX4bB&_nc_ohc=kZImnDSbIssAX8pkA2C&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfBfUnAJc4W7kNrU62JpzFBu3oftmmhCyd9Cu3N7oZYt8A&oe=63D91E04',
-			color: 'Green'
+			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+			color: 'Brown'
 		},
 		{
 			id: 6,
 			name: 'Luis Alcoholico',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.6435-9/140362090_1323627364681862_8292445935582333163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nALgkdMQXGsAX88vVaQ&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCmXlsIwEg3NQvL-PqZnwf11BxSYs7Q6ZmRj8vQW8aSEg&oe=63E863D3',
-			color: 'Blue'
+			image: 'https://i.pinimg.com/564x/44/bd/b5/44bdb5ea56d5309b9c4c73ec13e45035.jpg',
+			color: 'SteelBlue'
 		},
 		{
 			id: 7,
 			name: 'Gabby Jueves',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Green'
+			color: 'Maroon'
 		},
 		{
 			id: 8,
 			name: 'Diegoooooo',
-			image: 'https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/279665627_1041088890157256_7386884349206519305_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGSPf5yeEQyUQb1Gxp3FpU4_IG8EmlBXCv8gbwSaUFcK6aH76WuPmiSnO5Aawhrcsndnz0qw_W4EgHCVCFeAPvl&_nc_ohc=lX1r1XfY-NUAX_Nwhpo&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfAkUs7Q9V_eNlV1f6eutroKvTqPOvc_zfhloHgZPRjUdQ&oe=63D8B8DE',
-			color: 'Blue'
+			image: 'https://i.pinimg.com/564x/bd/9e/03/bd9e03f51010761ddd33bc866f0bc8e4.jpg',
+			color: 'DarkTurquoise'
 		},
 		{
 			id: 9,
 			name: 'Osvaldo',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'Green'
+			image: 'https://i.pinimg.com/564x/87/b6/03/87b6030382041fe33d2131bb171a18d6.jpg',
+			color: 'Indigo'
 		},
 		{
 			id: 10,
