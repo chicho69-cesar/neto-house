@@ -6,6 +6,30 @@
   scroll-behavior: smooth;
 }
 
+.fc-event-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fc-event-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fc-list-event {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  transition: color ease-in-out 0.15s, background ease-in-out 0.15s;
+}
+
+.fc-list-event:hover {
+  color: #000;
+}
+
 @media (prefers-color-scheme: light) {
   .fc-toolbar-title {
     color: #000;
