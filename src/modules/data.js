@@ -134,13 +134,13 @@ export function baths() {
 			id: 1,
 			location: 'Baño de arriba',
 			gif: 'https://media.tenor.com/UqtmN0l28v0AAAAC/ba%C3%B1o-jabon.gif',
-			roomies: [ 1, 10, 11 ]
+			roomies: [ 1, 2, 11, 12 ]
 		},
 		{
 			id: 2,
 			location: 'Primer baño de abajo',
 			gif: 'https://www.recreoviral.com/wp-content/uploads/2016/07/Trucos-para-limpiar-ba%C3%B1o-4.gif',
-			roomies: [ 2, 3, 5, 8 ]
+			roomies: [ 3, 5, 8, 10 ]
 		},
 		{
 			id: 3,
