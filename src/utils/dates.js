@@ -1,27 +1,27 @@
-import { months } from "../modules/data";
+import { months } from '../data/data'
 
 export function getCurrentDate() {
-  const dateNow = new Date(Date.now());
+  const dateNow = new Date(Date.now())
 
-  let day = dateNow.getDate();
-	let month = dateNow.getMonth(); 
-	let year = dateNow.getFullYear();
-
-  return { day, month, year };
+  return {
+    day: dateNow.getDate(),
+    month: dateNow.getMonth(),
+    year: dateNow.getFullYear()
+  }
 }
 
 export function getTodayDateInString() {
-  let { day, month, year } = getCurrentDate();
+  const { day, month, year } = getCurrentDate()
 
-  let arrayMonths = months();
-  let completeMonth = arrayMonths
-    .find(m => m.id === month)
-    .month;
+  const arrayMonths = months()
+  const completeMonth = arrayMonths
+    .find((m) => m.id === month)
+    .month
 
-  let stringDay = (day < 10 ? `0` : '') + day;
-  let stringMonth = completeMonth;
-  let stringYear = `${ year }`;
+  const stringDay = (day < 10 ? `0` : '') + day
+  const stringMonth = completeMonth
+  const stringYear = `${year}`
 
-  let todayInString = `${ stringDay }/${ stringMonth }/${ stringYear }`;
-  return todayInString;
+  const todayInString = `${stringDay}/${stringMonth}/${stringYear}`
+  return todayInString
 }
