@@ -1,5 +1,5 @@
-import { it, describe, expect } from "vitest";
-import { roomies, months, kitchenDates } from "../src/modules/data";
+import { describe, expect, it } from 'vitest'
+import { kitchenDates, months, roomies } from '../src/data/data'
 
 describe('#1 - Returns an array', () => {
   it('Roomies return an array', () => {
@@ -7,22 +7,22 @@ describe('#1 - Returns an array', () => {
       Array.isArray(
         roomies()
       )
-    ).toBe(true);
-  });
+    ).toBe(true)
+  })
 
   it('Months return an array', () => {
     expect(
       Array.isArray(
         months()
       )
-    ).toBe(true);
-  });
+    ).toBe(true)
+  })
 
   it('Kitchen Dates return an array', () => {
     expect(
       Array.isArray(
         kitchenDates()
       )
-    ).toBe(true);
-  });
-});
+    ).toBe(true)
+  })
+})

@@ -1,6 +1,6 @@
-import { baths } from "../modules/data";
+import { baths } from '../data/data'
 
 export function getBathTurn(id) {
-  let bathsTurns = baths().filter(bath => bath.id === id).pop();
-  return bathsTurns;
+  const bathsTurns = baths().filter((bath) => bath.id === id).pop()
+  return bathsTurns
 }
