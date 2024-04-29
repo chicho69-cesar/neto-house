@@ -140,7 +140,7 @@ export function baths() {
 			id: 2,
 			location: 'Primer baño de abajo',
 			gif: 'https://www.recreoviral.com/wp-content/uploads/2016/07/Trucos-para-limpiar-ba%C3%B1o-4.gif',
-			roomies: [ 4, 7, 9, 12 ]
+			roomies: [ 4, 7, 9 ]
 		},
 		{
 			id: 3,
@@ -206,86 +206,79 @@ export function kitchenDates() {
 				{ day: 5, limit: 6, roomie: 2 },
 				{ day: 8, limit: 9, roomie: 3 },
 				{ day: 10, limit: 11, roomie: 4 },
-				{ day: 12, limit: 13, roomie: 5 },
-				{ day: 15, limit: 16, roomie: 6 },
-				{ day: 17, limit: 18, roomie: 7 },
-				{ day: 19, limit: 20, roomie: 8 },
-				{ day: 22, limit: 23, roomie: 9 },
-				{ day: 24, limit: 25, roomie: 11 },
-				{ day: 26, limit: 27, roomie: 12 },
-				{ day: 29, limit: 30, roomie: 1 }
+				{ day: 12, limit: 13, roomie: 5 }
 			]
 		},
 		{
 			month: 4,
 			dates: [
-				{ day: 1, limit: 2, roomie: 2 },
-				{ day: 3, limit: 4, roomie: 3 },
-				{ day: 6, limit: 7, roomie: 4 },
-				{ day: 8, limit: 9, roomie: 5 },
-				{ day: 10, limit: 11, roomie: 6 },
-				{ day: 13, limit: 14, roomie: 7 },
-				{ day: 15, limit: 16, roomie: 8 },
-				{ day: 17, limit: 18, roomie: 9 },
-				{ day: 20, limit: 21, roomie: 11 },
-				{ day: 22, limit: 23, roomie: 12 },
-				{ day: 24, limit: 25, roomie: 1 },
-				{ day: 27, limit: 28, roomie: 2 },
-				{ day: 29, limit: 30, roomie: 3 },
-				{ day: 31, limit: 1, roomie: 4 }
+				{ day: 1, limit: 2, roomie: 6 },
+				{ day: 3, limit: 4, roomie: 7 },
+				{ day: 6, limit: 7, roomie: 8 },
+				{ day: 8, limit: 9, roomie: 9 },
+				{ day: 10, limit: 11, roomie: 10 },
+				{ day: 13, limit: 14, roomie: 11 },
+				{ day: 15, limit: 16, roomie: 1 },
+				{ day: 17, limit: 18, roomie: 2 },
+				{ day: 20, limit: 21, roomie: 3 },
+				{ day: 22, limit: 23, roomie: 4 },
+				{ day: 24, limit: 25, roomie: 5 },
+				{ day: 27, limit: 28, roomie: 6 },
+				{ day: 29, limit: 30, roomie: 7 },
+				{ day: 31, limit: 1, roomie: 8 }
 			]
 		},
 		{
 			month: 5,
 			dates: [
-				{ day: 3, limit: 4, roomie: 5 },
-				{ day: 5, limit: 6, roomie: 6 },
-				{ day: 7, limit: 8, roomie: 7 },
-				{ day: 10, limit: 11, roomie: 8 },
-				{ day: 12, limit: 13, roomie: 9 },
-				{ day: 14, limit: 15, roomie: 11 },
-				{ day: 17, limit: 18, roomie: 12 },
-				{ day: 19, limit: 20, roomie: 1 },
-				{ day: 21, limit: 22, roomie: 2 },
-				{ day: 24, limit: 25, roomie: 3 },
-				{ day: 26, limit: 27, roomie: 4 },
-				{ day: 28, limit: 29, roomie: 5 }
+				{ day: 3, limit: 4, roomie: 9 },
+				{ day: 5, limit: 6, roomie: 10 },
+				{ day: 7, limit: 8, roomie: 11 },
+				{ day: 10, limit: 11, roomie: 1 },
+				{ day: 12, limit: 13, roomie: 2 },
+				{ day: 14, limit: 15, roomie: 3 },
+				{ day: 17, limit: 18, roomie: 4 },
+				{ day: 19, limit: 20, roomie: 5 },
+				{ day: 21, limit: 22, roomie: 6 },
+				{ day: 24, limit: 25, roomie: 7 },
+				{ day: 26, limit: 27, roomie: 8 },
+				{ day: 28, limit: 29, roomie: 9 }
 			]
 		},
 		{
 			month: 6,
 			dates: [
-				{ day: 31, limit: 1, roomie: 6 },
+				{ day: 31, limit: 1, roomie: 10 },
 			]
 		},
 		{
 			month: 7,
 			dates: [
-				{ day: 2, limit: 3, roomie: 7 },
+				{ day: 2, limit: 3, roomie: 11 },
 			]
 		},
 		{
 			month: 8,
 			dates: [
-				{ day: 1, limit: 2, roomie: 8 },
+				{ day: 1, limit: 2, roomie: 1 },
 			]
 		},
 		{
 			month: 9,
 			dates: [
-				{ day: 2, limit: 3, roomie: 9 },
+				{ day: 2, limit: 3, roomie: 2 },
 			]
 		},
 		{
 			month: 10,
 			dates: [
-				{ day: 1, limit: 2, roomie: 11 },
+				{ day: 1, limit: 2, roomie: 3 },
 			]
 		},
 		{
 			month: 11,
 			dates: [
-				{ day: 1, limit: 2, roomie: 12 },
+				{ day: 1, limit: 2, roomie: 4 },
 			]
 		},
 	];
