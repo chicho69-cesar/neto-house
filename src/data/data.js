@@ -10,19 +10,19 @@ export function roomies() {
 			id: 2,
 			name: 'Andres',
 			image: 'https://i.pinimg.com/564x/34/f9/07/34f9072d158d176d922d652975982a18.jpg',
-			color: 'green'
+			color: 'brown'
 		},
 		{
 			id: 3,
 			name: 'Cesar',
 			image: 'https://i.pinimg.com/736x/2c/4c/67/2c4c67f144c8ed1600be38d06d8d1765.jpg',
-			color: 'tomato'
+			color: 'mediumseagreen'
 		},
 		{
 			id: 4,
 			name: 'Samuel',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'brown'
+			color: 'tomato'
 		},
 		{
 			id: 5,
@@ -65,13 +65,7 @@ export function roomies() {
 			name: 'Alejandro',
 			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
 			color: 'deeppink'
-		},
-		{
-			id: 12,
-			name: 'Carlos',
-			image: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
-			color: 'mediumseagreen'
-		},
+		}
 	];
 }
 
@@ -134,19 +128,19 @@ export function baths() {
 			id: 1,
 			location: 'Baño de arriba',
 			gif: 'https://media.tenor.com/UqtmN0l28v0AAAAC/ba%C3%B1o-jabon.gif',
-			roomies: [ 1, 2, 10, 11 ]
+			roomies: [1, 2, 10, 11]
 		},
 		{
 			id: 2,
 			location: 'Primer baño de abajo',
 			gif: 'https://www.recreoviral.com/wp-content/uploads/2016/07/Trucos-para-limpiar-ba%C3%B1o-4.gif',
-			roomies: [ 4, 7, 9 ]
+			roomies: [4, 7, 9]
 		},
 		{
 			id: 3,
 			location: 'El baño de la esquina',
 			gif: 'https://i.gifer.com/IroY.gif',
-			roomies: [ 3, 5, 6, 8 ]
+			roomies: [3, 5, 6, 8]
 		},
 	];
 }
@@ -201,7 +195,7 @@ export function kitchenDates() {
 		{
 			month: 3,
 			dates: [
-				{ day: 1, limit: 2, roomie: 12 },
+				{ day: 1, limit: 2, roomie: 1 },
 				{ day: 3, limit: 4, roomie: 1 },
 				{ day: 5, limit: 6, roomie: 2 },
 				{ day: 8, limit: 9, roomie: 3 },
@@ -216,69 +210,69 @@ export function kitchenDates() {
 				{ day: 3, limit: 4, roomie: 7 },
 				{ day: 6, limit: 7, roomie: 8 },
 				{ day: 8, limit: 9, roomie: 9 },
-				{ day: 10, limit: 11, roomie: 10 },
-				{ day: 13, limit: 14, roomie: 11 },
-				{ day: 15, limit: 16, roomie: 1 },
-				{ day: 17, limit: 18, roomie: 2 },
-				{ day: 20, limit: 21, roomie: 3 },
-				{ day: 22, limit: 23, roomie: 4 },
-				{ day: 24, limit: 25, roomie: 5 },
-				{ day: 27, limit: 28, roomie: 6 },
-				{ day: 29, limit: 30, roomie: 7 },
-				{ day: 31, limit: 1, roomie: 8 }
+				{ day: 10, limit: 11, roomie: 11 },
+				{ day: 13, limit: 14, roomie: 1 },
+				{ day: 15, limit: 16, roomie: 2 },
+				{ day: 17, limit: 18, roomie: 3 },
+				{ day: 20, limit: 21, roomie: 4 },
+				{ day: 22, limit: 23, roomie: 5 },
+				{ day: 24, limit: 25, roomie: 6 },
+				{ day: 27, limit: 28, roomie: 7 },
+				{ day: 29, limit: 30, roomie: 8 },
+				{ day: 31, limit: 1, roomie: 9 }
 			]
 		},
 		{
 			month: 5,
 			dates: [
-				{ day: 3, limit: 4, roomie: 9 },
-				{ day: 5, limit: 6, roomie: 10 },
-				{ day: 7, limit: 8, roomie: 11 },
-				{ day: 10, limit: 11, roomie: 1 },
-				{ day: 12, limit: 13, roomie: 2 },
-				{ day: 14, limit: 15, roomie: 3 },
-				{ day: 17, limit: 18, roomie: 4 },
-				{ day: 19, limit: 20, roomie: 5 },
-				{ day: 21, limit: 22, roomie: 6 },
-				{ day: 24, limit: 25, roomie: 7 },
-				{ day: 26, limit: 27, roomie: 8 },
-				{ day: 28, limit: 29, roomie: 9 }
+				{ day: 3, limit: 4, roomie: 11 },
+				{ day: 5, limit: 6, roomie: 1 },
+				{ day: 7, limit: 8, roomie: 2 },
+				{ day: 10, limit: 11, roomie: 3 },
+				{ day: 12, limit: 13, roomie: 4 },
+				{ day: 14, limit: 15, roomie: 5 },
+				{ day: 17, limit: 18, roomie: 6 },
+				{ day: 19, limit: 20, roomie: 7 },
+				{ day: 21, limit: 22, roomie: 8 },
+				{ day: 24, limit: 25, roomie: 9 },
+				{ day: 26, limit: 27, roomie: 11 },
+				{ day: 28, limit: 29, roomie: 1 }
 			]
 		},
 		{
 			month: 6,
 			dates: [
-				{ day: 31, limit: 1, roomie: 10 },
+				{ day: 31, limit: 1, roomie: 2 },
 			]
 		},
 		{
 			month: 7,
 			dates: [
-				{ day: 2, limit: 3, roomie: 11 },
+				{ day: 2, limit: 3, roomie: 3 },
 			]
 		},
 		{
 			month: 8,
 			dates: [
-				{ day: 1, limit: 2, roomie: 1 },
+				{ day: 1, limit: 2, roomie: 4 },
 			]
 		},
 		{
 			month: 9,
 			dates: [
-				{ day: 2, limit: 3, roomie: 2 },
+				{ day: 2, limit: 3, roomie: 5 },
 			]
 		},
 		{
 			month: 10,
 			dates: [
-				{ day: 1, limit: 2, roomie: 3 },
+				{ day: 1, limit: 2, roomie: 6 },
 			]
 		},
 		{
 			month: 11,
 			dates: [
-				{ day: 1, limit: 2, roomie: 4 },
+				{ day: 1, limit: 2, roomie: 7 },
 			]
 		},
 	];
