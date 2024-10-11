@@ -4,6 +4,7 @@ import interactionPlugin from '@fullcalendar/interaction'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
+import esLocale from '@fullcalendar/core/locales/es';
 
 import { getCalendarEvents } from '../utils/calendar-events'
 
@@ -19,9 +20,9 @@ export default function Calendar() {
           center: 'title',
           right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
         },
-        locale: 'es',
-        navLinks: true, // can click day/week names to navigate views
-        dayMaxEvents: true, // allow "more" link when too many events
+        locale: esLocale,
+        navLinks: true, 
+        dayMaxEvents: true,
         events: getCalendarEvents()
       })
     
