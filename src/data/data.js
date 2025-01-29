@@ -164,55 +164,55 @@ export function kitchenDates() {
 		{
 			month: 1,
 			dates: [
-				{ day: 3, limit: 4, roomie: 5 },
-				{ day: 5, limit: 6, roomie: 6 },
-				{ day: 7, limit: 8, roomie: 7 },
-				{ day: 10, limit: 11, roomie: 8 },
-				{ day: 12, limit: 13, roomie: 9 },
-				{ day: 14, limit: 15, roomie: 1 },
-				{ day: 17, limit: 18, roomie: 2 },
-				{ day: 19, limit: 20, roomie: 3 },
-				{ day: 21, limit: 22, roomie: 4 },
-				{ day: 24, limit: 25, roomie: 5 },
-				{ day: 26, limit: 27, roomie: 6 },
-				{ day: 28, limit: 28, roomie: 7 }
+				{ day: 3, limit: 4, roomie: 3 },
+				{ day: 5, limit: 6, roomie: 4 },
+				{ day: 7, limit: 8, roomie: 5 },
+				{ day: 10, limit: 11, roomie: 6 },
+				{ day: 12, limit: 13, roomie: 7 },
+				{ day: 14, limit: 15, roomie: 8 },
+				{ day: 17, limit: 18, roomie: 9 },
+				{ day: 19, limit: 20, roomie: 1 },
+				{ day: 21, limit: 22, roomie: 2 },
+				{ day: 24, limit: 25, roomie: 3 },
+				{ day: 26, limit: 27, roomie: 4 },
+				{ day: 28, limit: 28, roomie: 5 }
 			]
 		},
 		{
 			month: 2,
 			dates: [
-				{ day: 3, limit: 5, roomie: 8 },
-				{ day: 5, limit: 6, roomie: 9 },
-				{ day: 7, limit: 8, roomie: 11 },
-				{ day: 10, limit: 11, roomie: 1 },
-				{ day: 12, limit: 13, roomie: 2 },
-				{ day: 14, limit: 15, roomie: 3 },
-				{ day: 17, limit: 18, roomie: 4 },
-				{ day: 19, limit: 20, roomie: 5 },
-				{ day: 21, limit: 22, roomie: 6 },
-				{ day: 24, limit: 25, roomie: 7 },
-				{ day: 26, limit: 27, roomie: 8 },
-				{ day: 28, limit: 29, roomie: 9 },
-				{ day: 31, limit: 31, roomie: 11 }
+				{ day: 3, limit: 4, roomie: 6 },
+				{ day: 5, limit: 6, roomie: 7 },
+				{ day: 7, limit: 8, roomie: 8 },
+				{ day: 10, limit: 11, roomie: 9 },
+				{ day: 12, limit: 13, roomie: 1 },
+				{ day: 14, limit: 15, roomie: 2 },
+				{ day: 17, limit: 18, roomie: 3 },
+				{ day: 19, limit: 20, roomie: 4 },
+				{ day: 21, limit: 22, roomie: 5 },
+				{ day: 24, limit: 25, roomie: 6 },
+				{ day: 26, limit: 27, roomie: 7 },
+				{ day: 28, limit: 29, roomie: 8 },
+				{ day: 31, limit: 31, roomie: 9 }
 			]
 		},
 		{
 			month: 3,
 			dates: [
 				{ day: 2, limit: 3, roomie: 1 },
-				{ day: 4, limit: 5, roomie: 1 },
-				{ day: 7, limit: 8, roomie: 2 },
-				{ day: 9, limit: 10, roomie: 3 },
-				{ day: 11, limit: 12, roomie: 4 },
-				{ day: 14, limit: 15, roomie: 5 },
-				{ day: 16, limit: 17, roomie: 5 },
-				{ day: 18, limit: 19, roomie: 5 }
+				{ day: 4, limit: 5, roomie: 2 },
+				{ day: 7, limit: 8, roomie: 3 },
+				{ day: 9, limit: 10, roomie: 4 },
+				{ day: 11, limit: 12, roomie: 5 },
+				{ day: 14, limit: 15, roomie: 6 },
+				{ day: 16, limit: 17, roomie: 7 },
+				{ day: 18, limit: 19, roomie: 8 }
 			]
 		},
 		{
 			month: 4,
 			dates: [
-				{ day: 1, limit: 2, roomie: 6 },
+				{ day: 1, limit: 2, roomie: 9 },
 			]
 		},
 		{
