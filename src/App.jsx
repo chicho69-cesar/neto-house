@@ -1,10 +1,9 @@
 import { Suspense, lazy } from 'react'
 
-import Baths from './components/Baths'
-import BathsSkeleton from './components/skeletons/BathsSkeleton'
-import CalendarSkeleton from './components/skeletons/CalendarSkeleton'
 import Header from './components/Header'
 import Modal from './components/Modal'
+import BathsSkeleton from './components/skeletons/BathsSkeleton'
+import CalendarSkeleton from './components/skeletons/CalendarSkeleton'
 import Turn from './components/Turn'
 
 const LazyCalendar = lazy(() => import('./components/Calendar'))
